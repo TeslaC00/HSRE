@@ -1,0 +1,23 @@
+2025-03-19 20:10:02.377337: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-03-19 20:10:02.395339: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1742395202.419025   18804 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1742395202.426361   18804 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1742395202.446610   18804 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1742395202.446703   18804 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1742395202.446707   18804 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1742395202.446711   18804 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-03-19 20:10:02.452342: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Hello from hsre!
+2025-03-19 20:10:05.236549: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:47] Overriding orig_value setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+I0000 00:00:1742395205.237800   18804 gpu_device.cc:2019] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 3586 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 3060 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.6
+25-03-19 20:10:06 - Directory /home/vikas/.deepface created
+25-03-19 20:10:06 - Directory /home/vikas/.deepface/weights created
+25-03-19 20:10:06 - retinaface.h5 will be downloaded from the url https://github.com/serengil/deepface_models/releases/download/v1.0/retinaface.h5
+Downloading...
+From: https://github.com/serengil/deepface_models/releases/download/v1.0/retinaface.h5
+To: /home/vikas/.deepface/weights/retinaface.h5
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 119M/119M [00:06<00:00, 17.0MB/s]
+I0000 00:00:1742395216.689151   18871 cuda_dnn.cc:529] Loaded cuDNN version 90300
+{'face_1': {'score': np.float64(0.9994620680809021), 'facial_area': [np.int64(47), np.int64(71), np.int64(125), np.int64(177)], 'landmarks': {'right_eye': [np.float32(71.000725), np.float32(113.32923)], 'left_eye': [np.float32(108.24088), np.float32(113.810295)], 'nose': [np.float32(91.128174), np.float32(134.31636)], 'mouth_right': [np.float32(72.95062), np.float32(150.3168)], 'mouth_left': [np.float32(104.93221), np.float32(150.51727)]}}}

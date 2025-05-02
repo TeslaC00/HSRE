@@ -1,0 +1,14 @@
+{'face_1': 
+    {
+        'score': np.float64(0.9994620680809021), 
+        'facial_area': [np.int64(47), np.int64(71), np.int64(125), np.int64(177)], 
+        'landmarks': 
+            {
+                'right_eye': [np.float32(71.000725), np.float32(113.32923)], 
+                'left_eye': [np.float32(108.24088), np.float32(113.810295)], 
+                'nose': [np.float32(91.128174), np.float32(134.31636)], 
+                'mouth_right': [np.float32(72.95062), np.float32(150.3168)], 
+                'mouth_left': [np.float32(104.93221), np.float32(150.51727)]
+            }
+    }
+}
